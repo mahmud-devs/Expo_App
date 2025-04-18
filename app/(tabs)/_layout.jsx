@@ -26,6 +26,8 @@ const _layout = () => {
                 },
             }}
         >
+
+            {/* ========================= home tab ============================= */}
             <Tabs.Screen
                 name="(home)/index"
                 options={{
@@ -56,6 +58,8 @@ const _layout = () => {
                     },
                 }}
             />
+
+            {/* ============================== sign in tab========================== */}
             <Tabs.Screen
                 name="(login)/index"
                 options={{
@@ -86,6 +90,8 @@ const _layout = () => {
                     },
                 }}
             />
+
+            {/* ================================ login tab=========================== */}
             <Tabs.Screen
                 name="(signin)/index"
                 options={{
